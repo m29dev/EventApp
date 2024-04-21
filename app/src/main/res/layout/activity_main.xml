@@ -9,61 +9,82 @@
     android:layout_margin="20dp"
     tools:context=".MainActivity">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/et_a"
-        android:layout_margin="20dp"
-        android:hint="Enter a " />
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/et_a"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:hint="Enter a " />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/et_b"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:hint="Enter b " />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_add"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:text="+" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_subtraction"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:text="-" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_multiplication"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:text="*" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_division"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:text="/" />-->
+<!--    </LinearLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/result_tv"-->
+<!--        android:text="Result"-->
+<!--        android:textSize="24sp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:gravity="center"/>-->
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/et_b"
-        android:layout_margin="20dp"
-        android:hint="Enter b " />
+        android:id="@+id/et_login"
+        android:layout_margin="10dp"
+        android:hint="Login"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <EditText
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_add"
-            android:layout_margin="40dp"
-            android:text="+"/>
+        android:id="@+id/et_password"
+        android:layout_margin="10dp"
+        android:hint="Password"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_subtraction"
-            android:layout_margin="40dp"
-            android:text="-"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_multiplication"
-            android:layout_margin="40dp"
-            android:text="*"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/btn_division"
-            android:layout_margin="40dp"
-            android:text="/"/>
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/result_tv"
-        android:text="Result"
-        android:textSize="24sp"
-        android:layout_margin="20dp"
-        android:gravity="center"/>
-
+        android:id="@+id/btn_signin"
+        android:layout_margin="40dp"
+        android:hint="Sign In"/>
 
 </LinearLayout>
